@@ -628,8 +628,6 @@ header nav .main-nav > li > a:hover::after {
 .education .educ .box p {
     font-size: 14px;
     line-height: 1.4;
-    max-width: 100%;
-    width: 350px;
 }
 
 .education h2 {
@@ -640,7 +638,7 @@ header nav .main-nav > li > a:hover::after {
 
 .education .say .comments {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
 }
 
@@ -780,7 +778,7 @@ header nav .main-nav > li > a:hover::after {
 
 .works .my-work {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
     margin-top: 50px;
 }
