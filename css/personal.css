@@ -757,11 +757,22 @@ header nav .main-nav > li > a:hover::after {
 
 .education .our-skills .skill .the-progrss span {
   position: absolute;
+  width: 0;
   left: 0;
   right: 0;
   height: 100%;
   background-color: var(--third-color);
   border-radius: 15px;
+  transition: width 0.5s linear;
+}
+
+@media (max-width: 426px) {
+  .education .our-skills .skill h3 {
+    font-size: 16px;
+  }
+  .education .our-skills .skill .the-progrss {
+    height: 20px;
+  }
 }
 
 @media (max-width: 321px) {
